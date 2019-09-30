@@ -17,4 +17,4 @@ markerDomEl.style.height = '39px';
 markerDomEl.style.backgroundImage = 'url(http://i.imgur.com/WbMOfMl.png)';
 
 new mapboxgl.Marker(markerDomEl).setLngLat([-74.009, 40.705]).addTo(map);
-marker('hotels', [-74.014, 40.711]).addTo(map);
+marker('restaurants', [-74.014, 40.711]).addTo(map);

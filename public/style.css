@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #C5EBC3;
+}
+
 body {
   margin: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -11,11 +15,17 @@ body {
 header {
   width: 100%;
   height: 100px;
-  background-color: green;
+  background-color: #C5EBC3;
+}
+
+header h1 {
+  text-align: center;
+  color: #B7C8B5;
 }
 
 #container {
   display: flex;
+  justify-content: space-between;
 }
 
 #map-column {
@@ -24,21 +34,37 @@ header {
 }
 
 #info-column {
-  background-color: blue;
-  min-width: 30%;
+  background-color: #54414E;
+  min-width: 31%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 #locations {
-  background-color: yellow;
+  background-color: #A790A5;
   height: 45%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 #itinerary {
-  background-color: gray;
+  background-color: #875C74;
   height: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+#it-title {
+  background-color: #C5EBC3;
+  padding-left: 5%;
+  height: 20%;
+}
+
+#it-title h3 {
+  font-weight: bold;
 }
 
 #map {
