@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trip Planner</title>
     <link
       href="https://api.mapbox.com/mapbox-gl-js/v1.3.2/mapbox-gl.css"
@@ -9,7 +11,19 @@
     <link rel="stylesheet" href="style.css" />
     <script src="bundle.js" defer></script>
   </head>
+  <header>
+  </header>
   <body>
-    <div id="map"></div>
+    <div id="container">
+      <div id="map-column">
+        <div id="map"></div>
+      </div>
+      <div id="info-column">
+        <div id="locations">
+        </div>
+        <div id="itinerary">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
